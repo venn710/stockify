@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27FCFFC12C1E0E76001169F3 /* stockifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FCFFC02C1E0E76001169F3 /* stockifyApp.swift */; };
-		27FCFFC32C1E0E76001169F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FCFFC22C1E0E76001169F3 /* ContentView.swift */; };
 		27FCFFC52C1E0E77001169F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27FCFFC42C1E0E77001169F3 /* Assets.xcassets */; };
 		27FCFFC82C1E0E77001169F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27FCFFC72C1E0E77001169F3 /* Preview Assets.xcassets */; };
+		27FCFFCF2C1E0EE8001169F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FCFFCE2C1E0EE8001169F3 /* AppDelegate.swift */; };
+		27FCFFD12C1E0F75001169F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FCFFD02C1E0F75001169F3 /* SceneDelegate.swift */; };
+		27FCFFD32C1E0FE1001169F3 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FCFFD22C1E0FE1001169F3 /* TabBarController.swift */; };
+		27FCFFD52C1E1157001169F3 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FCFFD42C1E1157001169F3 /* HomeScreen.swift */; };
+		27FCFFD72C1E1190001169F3 /* MarketsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FCFFD62C1E1190001169F3 /* MarketsScreen.swift */; };
+		27FCFFDC2C1E187D001169F3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FCFFDB2C1E187D001169F3 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		27FCFFBD2C1E0E76001169F3 /* stockify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stockify.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		27FCFFC02C1E0E76001169F3 /* stockifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stockifyApp.swift; sourceTree = "<group>"; };
-		27FCFFC22C1E0E76001169F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		27FCFFC42C1E0E77001169F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27FCFFC72C1E0E77001169F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		27FCFFCE2C1E0EE8001169F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27FCFFD02C1E0F75001169F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		27FCFFD22C1E0FE1001169F3 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		27FCFFD42C1E1157001169F3 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		27FCFFD62C1E1190001169F3 /* MarketsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketsScreen.swift; sourceTree = "<group>"; };
+		27FCFFDB2C1E187D001169F3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +59,14 @@
 		27FCFFBF2C1E0E76001169F3 /* stockify */ = {
 			isa = PBXGroup;
 			children = (
-				27FCFFC02C1E0E76001169F3 /* stockifyApp.swift */,
-				27FCFFC22C1E0E76001169F3 /* ContentView.swift */,
 				27FCFFC42C1E0E77001169F3 /* Assets.xcassets */,
 				27FCFFC62C1E0E77001169F3 /* Preview Content */,
+				27FCFFCE2C1E0EE8001169F3 /* AppDelegate.swift */,
+				27FCFFD02C1E0F75001169F3 /* SceneDelegate.swift */,
+				27FCFFD22C1E0FE1001169F3 /* TabBarController.swift */,
+				27FCFFD42C1E1157001169F3 /* HomeScreen.swift */,
+				27FCFFD62C1E1190001169F3 /* MarketsScreen.swift */,
+				27FCFFDB2C1E187D001169F3 /* Constants.swift */,
 			);
 			path = stockify;
 			sourceTree = "<group>";
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27FCFFC32C1E0E76001169F3 /* ContentView.swift in Sources */,
-				27FCFFC12C1E0E76001169F3 /* stockifyApp.swift in Sources */,
+				27FCFFCF2C1E0EE8001169F3 /* AppDelegate.swift in Sources */,
+				27FCFFD52C1E1157001169F3 /* HomeScreen.swift in Sources */,
+				27FCFFD32C1E0FE1001169F3 /* TabBarController.swift in Sources */,
+				27FCFFDC2C1E187D001169F3 /* Constants.swift in Sources */,
+				27FCFFD72C1E1190001169F3 /* MarketsScreen.swift in Sources */,
+				27FCFFD12C1E0F75001169F3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +294,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,9 +304,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.venn.stockify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,8 +328,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,9 +338,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.venn.stockify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
